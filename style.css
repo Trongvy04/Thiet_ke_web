@@ -246,48 +246,72 @@ header{
     width: 50px;
     height: 50px;
 }
-@media screen and (max-width: 769px) {
-    #toggle_sidebar:checked ~#sidebar{
-        left: 6% ;
+@media only screen and (max-width: 391px) {
+    #hd1{
+        margin: 0px;
     }
     #block_header2{
-        margin-left: 50px;
+        margin: 0px 10px;
+        display: flex;
+        align-items: center;
     }
     #menu1{
-        width: 70%;
+        width: 60%;
+    }
+    #menu{
+        padding-left: 30px;
+    }
+    #others{
+        padding-left: 10px;
     }
     #than1{
-        padding-left: 5%;
+        padding: 0px 5%;
     }
     #bai_viet_noi_bat{
-        display: inline-block;
+        margin: 0px auto;
     }
     #noi_dung{
-        width: 100%;
+        width: 95%;
     }
     #noi_dung span{
-        padding-right: 80%;
+        padding-right: 70%;
+    }
+    #img_banh>img{
+        max-width: 100%;
+    }
+    #than2{
+        padding: 0px;
     }
     #than2_left{
+        padding: 0px 10%;
         float: none;
         border-right: none;
     }
-    #than2_left>ul{
-        display: flex;
-    }
+    
     #than2_right{
+        display: flow-root;
         float: none;
-        display: inline;
-    }
-    #than2_right h4, #than2_right p{
-        margin: 5px;
+        width: 100%;
     }
     #cuoi_trang{
-        margin-top: 92%;
+        margin-top: 10%;
+        background-color: #717171;
+        color: white;
+        font-size:xx-small;
+        padding-bottom: 20px;
+    }
+    #cuoi_trang>div{
+        padding: 0px;
+    }
+    #lien_he ul, #chinh_sach ul, #danh_muc_san_pham ul{
+        padding-left: 10px;
     }
     #len_dau_trang{
-        position: fixed;
-        left: 90%;
+        left: 85%;
         top: 90%;
     }
+    #len_dau_trang button{
+        width: 30px;
+        height: 30px;
+    }    
 }
