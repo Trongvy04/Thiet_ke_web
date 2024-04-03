@@ -297,14 +297,20 @@ header{
         margin-top: 10%;
         background-color: #717171;
         color: white;
-        font-size:xx-small;
+        font-size:small;
         padding-bottom: 20px;
     }
     #cuoi_trang>div{
         padding: 0px;
     }
+    .danh_sach_cuoi_trang{
+        display: inline;
+    }
+    .danh_sach_cuoi_trang>div{
+        padding-top: 10px;
+    }
     #lien_he ul, #chinh_sach ul, #danh_muc_san_pham ul{
-        padding-left: 10px;
+        padding-left: 30px;
     }
     #len_dau_trang{
         left: 85%;
