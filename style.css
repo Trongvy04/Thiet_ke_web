@@ -107,7 +107,7 @@ header{
     padding-right: 60%;
 }
 #than2{
-    padding: 10% 0%;
+    padding: 5% 0%;
 }
 #muc_luc_banh button{
     margin: 10px 5px;
@@ -249,6 +249,16 @@ header{
 @media only screen and (max-width: 391px) {
     #hd1{
         margin: 0px;
+        font-size: small;
+    }
+    #block_header2{
+        height: 25px;
+    }
+    #menu>li:first-child{
+        display: block;
+    }
+    #menu>li{
+        display: none;
     }
     #block_header2{
         margin: 0px 10px;
@@ -259,6 +269,7 @@ header{
         width: 60%;
     }
     #menu{
+        margin: 0%;
         padding-left: 30px;
     }
     #others{
@@ -283,11 +294,21 @@ header{
         padding: 0px;
     }
     #than2_left{
-        padding: 0px 10%;
+        padding: 5% 0%;
         float: none;
         border-right: none;
+        font-size: xx-small;
     }
-    
+    .bai_viet>img{
+        max-width: 100%;
+    }
+    .bai_viet{
+        max-width: 27%;
+        margin: 10px;
+    }
+    .noi_dung_bai_viet >h3{
+        margin-top: 10px;
+    }
     #than2_right{
         display: flow-root;
         float: none;
@@ -297,7 +318,6 @@ header{
         margin-top: 10%;
         background-color: #717171;
         color: white;
-        font-size:small;
         padding-bottom: 20px;
     }
     #cuoi_trang>div{
